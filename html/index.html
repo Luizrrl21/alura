@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível
@@ -19,14 +25,27 @@
             colocarem em prática boas ideias. Vamos
             conversar?</p>
             <div class="apresentacao__links">
-                <a class= "apresentacao__links__link" href="https://www.instagram.com/master.inova/">Instagram</a>
-                <a class= "apresentacao__links__link" href="https://github.com/Luizrrl21">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes: </h2>
+                <a class= "apresentacao__links__link" href="https://www.instagram.com/master.inova/">
+                    <img src="assets/Instagram.png">
+                    Instagram
+                </a>
+                <a class= "apresentacao__links__link" href="https://github.com/Luizrrl21">
+                    <img src="assets/Github.png">
+                    Github
+                </a>
+                <a class= "apresentacao__links__link" href="https://www.linkedin.com/in/luiz-roberto-055028223/">
+                    <img src="assets/Linkedin.png">
+                    LinkedIn
+                </a>
             </div>
 
         </section> 
-        <img src="logo.png" alt="Logo Master Inova">   
+        <img src="./assets/logo.png" alt="Logo Master Inova">   
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Luiz</p>
+    </footer>
 </body>
 </html>
 
